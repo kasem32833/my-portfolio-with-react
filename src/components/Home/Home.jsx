@@ -1,3 +1,4 @@
+import Hero from "../Hero";
 import Navbar from "../Navbar";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
       <div className="fixed top-0 -z-10 h-full w-full"></div>
       <div className="container mx-auto px-8">
       <Navbar></Navbar>
+      <Hero></Hero>
       </div>
      
     </div>
