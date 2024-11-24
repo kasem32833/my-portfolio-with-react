@@ -1,3 +1,4 @@
+import { HERO_CONTENT } from "../constnts"
 
 const Hero = () => {
   return (
@@ -9,6 +10,9 @@ const Hero = () => {
                         Abul Kasem
                         </h1>
                     <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent ">Full Stuck Developer</span>
+                    {
+                        HERO_CONTENT
+                    }
                 </div>
             </div>
         </div>
